@@ -72,7 +72,7 @@ DEVICES = {
     "j475cap":  Device("13.4", False),  # Mac Studio (M2 Max, 2023)
     "j475dap":  Device("13.4", False),  # Mac Studio (M2 Ultra, 2023)
     "j180dap":  Device("13.4", True),   # Mac Pro (M2 Ultra, 2023)
-    "j613ap":   Device("13.4", True),   # Macbook Air (M3, 2024)
+    "j613ap":   Device("15.0", True),   # Macbook Air (M3, 2024)
 }
 
 IPSW_VERSIONS = [
@@ -101,7 +101,7 @@ IPSW_VERSIONS = [
          "15.0",
          "iBoot-10338.101.1",
          "23.7.0.0.0,0",
-         False,
+         True,
          None,
          "https://updates.cdn-apple.com/2024FallFCS/fullrestores/072-30094/44BD016F-6EE3-4EE5-8890-6F9AA008C537/UniversalMac_15.1.1_24B91_Restore.ipsw")
 ]
