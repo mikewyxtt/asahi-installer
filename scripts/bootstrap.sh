@@ -21,9 +21,9 @@ if true; then
         exit 1
     fi
 
-    export VERSION_FLAG=http://localhost:5000/releases/latest
-    export INSTALLER_BASE=http://localhost:5000/releases
-    export INSTALLER_DATA=http://localhost:5000/data/installer_data.json
+    export VERSION_FLAG=file://$PWD/releases/latest
+    export INSTALLER_BASE=file://$PWD/releases
+    export INSTALLER_DATA=file://$PWD/data/installer_data.json
     export REPO_BASE=https://cdn.asahilinux.org
 
     export EXPERT=1
