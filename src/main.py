@@ -72,7 +72,7 @@ DEVICES = {
     "j475cap":  Device("13.4", False),  # Mac Studio (M2 Max, 2023)
     "j475dap":  Device("13.4", False),  # Mac Studio (M2 Ultra, 2023)
     "j180dap":  Device("13.4", True),   # Mac Pro (M2 Ultra, 2023)
-    "j613ap":   Device("15.0", True),   # Macbook Air (M3, 2024)
+    "j613ap":   Device("14.0", True),   # Macbook Air (M3, 2024)
 }
 
 IPSW_VERSIONS = [
@@ -97,13 +97,13 @@ IPSW_VERSIONS = [
          False,
          None,
          "https://updates.cdn-apple.com/2023SummerFCS/fullrestores/032-69606/D3E05CDF-E105-434C-A4A1-4E3DC7668DD0/UniversalMac_13.5_22G74_Restore.ipsw"),
-    IPSW("15.1.1",
-         "15.0",
+    IPSW("14.6.1",
+         "14.0",
          "iBoot-10338.101.1",
          "23.7.0.0.0,0",
          True,
          None,
-         "https://updates.cdn-apple.com/2024FallFCS/fullrestores/072-30094/44BD016F-6EE3-4EE5-8890-6F9AA008C537/UniversalMac_15.1.1_24B91_Restore.ipsw")
+         "https://updates.cdn-apple.com/2024SummerFCS/fullrestores/062-52859/932E0A8F-6644-4759-82DA-F8FA8DEA806A/UniversalMac_14.6.1_23G93_Restore.ipsw")
 ]
 
 class InstallerMain:
